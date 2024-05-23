@@ -1,3 +1,11 @@
 {
-    "liveServer.settings.port": 5501
+  "name": "cronometro",
+  "version": "1.0.0",
+  "description": "cronometro com html, css e javascript",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
 }
