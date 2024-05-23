@@ -7,6 +7,6 @@
     "deploy": "gh-pages -d build",
     "build": "mkdir -p build && cp index.html style.css scripts.js build"
   },
-  "author": "Seu Nome",
+  "author": "Lucas Silva",
   "license": "MIT"
 }
