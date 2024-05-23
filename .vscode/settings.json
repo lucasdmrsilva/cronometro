@@ -4,14 +4,9 @@
   "description": "cronometro com html, css e javascript",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "comando-de-build"
   },
   "author": "Seu Nome",
   "license": "MIT"
-}
-
-{
-  "scripts": {
-    "build": "comando-de-build"
-  }
 }
