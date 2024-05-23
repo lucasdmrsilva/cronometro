@@ -6,6 +6,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "mkdir -p build && cp index.html style.css scripts.js build"
+    "build": "mkdir -p build && cp index.html style.css scripts.js build"
+
   },
   "author": "Lucas Silva",
   "license": "MIT"
