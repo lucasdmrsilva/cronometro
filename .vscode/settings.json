@@ -5,7 +5,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "comando-de-build"
+    "build": "mkdir -p build && cp index.html style.css scripts.js build"
   },
   "author": "Seu Nome",
   "license": "MIT"
