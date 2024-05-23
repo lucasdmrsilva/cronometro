@@ -9,3 +9,9 @@
   "author": "Seu Nome",
   "license": "MIT"
 }
+
+{
+  "scripts": {
+    "build": "comando-de-build"
+  }
+}
