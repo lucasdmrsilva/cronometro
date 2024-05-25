@@ -1,0 +1,12 @@
+{
+  "name": "cronometro",
+  "version": "1.0.0",
+  "description": "cronometro com html, css e javascript",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "mkdir -p build && cp index.html style.css scripts.js build"
+  },
+  "author": "Lucas Silva",
+  "license": "MIT"
+}
