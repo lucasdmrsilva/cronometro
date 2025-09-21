@@ -8,5 +8,6 @@
     "build": "mkdir -p build && cp index.html style.css scripts.js build"
   },
   "author": "Lucas Silva",
-  "license": "MIT"
+  "license": "MIT",
+  "liveServer.settings.port": 5501
 }

@@ -5,8 +5,11 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "mkdir -p build && cp index.html style.css scripts.js build"
+    "build": "rmdir /s /q build && mkdir build && copy index.html build\\ && copy style.css build\\ && copy scripts.js build\\"
   },
   "author": "Lucas Silva",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
