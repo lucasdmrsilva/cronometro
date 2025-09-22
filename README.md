@@ -12,6 +12,7 @@ Este projeto é um cronômetro digital simples e funcional, construído como um 
 * **Zerar:** Botão para resetar o cronômetro para zero.
 * **Continuar:** Botão para continuar de onde a contagem foi pausada.
 * **Layout Simples:** Interface minimalista e intuitiva, focada na funcionalidade principal.
+* **[Link do projeto no ar](https://lucasdmrsilva.github.io/cronometro/)**
 
 ---
 
